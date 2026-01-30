@@ -11,33 +11,6 @@ FEATURES:
 - PostgreSQL database (data persists)
 - Full React/Next.js UI
 
-HOW TO RUN:
-
-1. Open Terminal
-
-2. Go to folder:
-   cd ~/Downloads/full-app
-
-3. Start it:
-   docker-compose up -d --build
-
-4. Wait 3-5 minutes
-
-5. Set up database:
-   docker-compose exec api alembic upgrade head
-
-6. Create demo user:
-   docker-compose exec api python scripts/seed_data.py
-
-7. Open Chrome: localhost:3000
-
-8. Login:
-   Email: demo@example.com
-   Password: demo123
-
-
-TO STOP:
-   docker-compose down
 
 
 VALIDATION RULES:
